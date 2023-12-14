@@ -1,0 +1,199 @@
+
+.contain{
+    margin-top: -20px;
+}
+.remove{
+    border: none;
+   background: none;
+   position: absolute;
+   top: -15%;
+   left: 90px;
+}
+.selected-image-1 {
+    position: absolute;
+    top: 65px;
+    left: 50.7%;
+    z-index: 3;
+}
+.selected-image-1 img{
+    width: 210px;
+    height: 215px;
+}
+.selected-image-2 {
+    position: absolute;
+    top: 50.5px;
+    left: 36.2%;
+    z-index: 2;
+}
+.selected-image-2 img{
+    width: 210px;
+    height: 215px;
+}
+.selected-image-3 {
+    position: absolute;
+    top: 39px;
+    left: 21.7%;
+    z-index: 1;
+}
+.selected-image-3 img{
+    width: 210px;
+    height: 215px;
+}
+.selected-image-4 {
+    position: absolute;
+    top: 28px;
+    left: 6.9%;
+    
+}
+.selected-image-4 img{
+    width: 210px;
+    height: 215px;
+}
+.leftbar {
+    width: 99.5%;
+    height: 100vh;
+    position: sticky;
+    top: 40px;
+    /* border: 2px solid blue; */
+}
+.outborder{
+    margin-top: 28px;
+}
+.out img{
+   width: 580px;
+   height: 270px;
+}
+.leftbar img {
+    margin-left: 80px;
+    margin-top: -20px;
+}
+
+.leftbar h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(218, 214, 247);
+    -webkit-text-stroke-color: rgb(37, 37, 146);
+    -webkit-text-stroke-width: 1px;
+    font-size: 43px;
+    margin-left: 85px;
+    margin-top: 10px;
+}
+
+.pack {
+    width: 220px;
+    height: 40px;
+    border: 3px solid rgb(73, 23, 155);
+    align-items: center;
+    margin-left: 41%;
+    margin-top: -13px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftbutton button {
+    width: 95px;
+    height: 33px;
+    border-radius: 50px;
+    margin: 5px;
+    border: none;
+    background-color: rgb(60, 10, 117);
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.Review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    margin-top: -20px;
+}
+
+.Review img {
+    height: 100px;
+    width: 170px;
+    margin-top: 0px;
+}
+
+.Review p {
+    margin-left: -30px;
+    color: rgb(82, 31, 141);
+    font-weight: bold;
+    font-size: small;
+
+}
+
+.currency h2 {
+
+    font-size: 40px;
+    color: rgb(60, 10, 117);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: -15px;
+    margin-left: 100px;
+
+}
+
+.sub h3 {
+    text-align: center;
+    margin-top: -15px;
+    margin-left: 100px;
+    color: rgb(60, 10, 117);
+    text-decoration: underline;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+
+}
+
+.pick {
+    width: 450px;
+    height: 50px;
+    border: 2px solid rgb(60, 10, 117);
+    align-items: center;
+    margin-top: 23px;
+    margin-left: 180px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.pick p {
+    text-align: center;
+    margin-top: 13px;
+    color: rgb(60, 10, 117);
+    font-weight: 500;
+}
+
+.riskfree {
+    align-items: center;
+}
+
+.riskfree p {
+    text-align: center;
+    margin-left: 95px;
+    color: rgb(60, 10, 117);
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.rightbutton button {
+    width: 95px;
+    height: 33px;
+    border-radius: 50px;
+    margin: 5px;
+    border: none;
+    background-color: rgb(218, 214, 247);
+    color: rgb(82, 31, 141);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.rightbutton button:hover {
+    background-color: rgb(60, 10, 117);
+    color: white;
+    cursor: pointer;
+}

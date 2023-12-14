@@ -1,0 +1,9 @@
+.heder {
+    height: 40px;
+    width: 100%;
+}
+.heder p {
+    text-align: center;
+    color: white;
+    margin-top: 1px;
+}

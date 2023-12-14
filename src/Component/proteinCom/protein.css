@@ -1,0 +1,42 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(34, 23, 133);
+  }
+  .container img{
+    width: 100%;
+    height: 100%;
+  }
+  .lside {
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    
+  }
+  .lside h2{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .lside p{
+    font-weight: 500;
+    margin-top: -10px;
+  }
+  .lside .com{
+    padding: 5px;
+  }
+  .rside{
+    position: absolute;
+    top: 15%;
+    left: 78%;
+  }
+  .rside h2{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  .rside p{
+    font-weight: 500;
+    margin-top: -10px;
+  }
+  .rside .com{
+    padding: 5px;
+  }
